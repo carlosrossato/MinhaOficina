@@ -1,0 +1,8 @@
+Trocar oleo
+25.0
+Balanceamento de pneu
+60.0
+Conserto de travas eletricas
+35.0
+Troca de bateria
+20.0

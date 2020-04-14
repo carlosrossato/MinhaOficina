@@ -1,0 +1,26 @@
+﻿Cliente: Adeniro da Silva Pereira
+Produto: Rebinboca da parafuseta Preço: 23.0
+Produto: Parafuso Preço: 30.0
+Produto: Oleo de motor Preço: 75.0
+Serviço: Trocar oleo Preço: 25.0
+Serviço: Balanceamento de pneu Preço: 60.0
+Total: R$213.0
+----------------------------------------------------------------
+Cliente: James Bond
+Produto: Rebinboca da parafuseta Preço: 23.0
+Produto: Parafuso Preço: 30.0
+Produto: Oleo de motor Preço: 75.0
+Serviço: Trocar oleo Preço: 25.0
+Serviço: Balanceamento de pneu Preço: 60.0
+Total: R$213.0
+----------------------------------------------------------------
+Cliente: Valter Dursley
+Produto: Rebinboca da parafuseta Preço: 23.0
+Serviço: Trocar oleo Preço: 25.0
+Total: R$48.0
+----------------------------------------------------------------
+Cliente: ewlqnwen
+Produto: Parafuso Preço: 30.0
+Serviço: Trocar oleo Preço: 25.0
+Total: R$55.0
+----------------------------------------------------------------

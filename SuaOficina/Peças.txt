@@ -1,0 +1,16 @@
+Rebinboca da parafuseta
+23.0
+Hot Weels
+Sedan
+Parafuso
+30.0
+Buttons
+Hatch
+Oleo de motor
+75.0
+Mobil
+SUV
+Volante
+250.0
+Mercedes Benz
+Sedan

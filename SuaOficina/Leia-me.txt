@@ -1,0 +1,8 @@
+SuaOficina Versão 1.0 20/03/2019
+----------------------------------------------
+Software de gerenciamento de oficina mecânica.
+----------------------------------------------
+Dupla:
+LEANDRO FERREIRA MARTINS
+CARLOS HENRIQUE ROSSATO
+	

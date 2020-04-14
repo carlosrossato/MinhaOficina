@@ -1,0 +1,25 @@
+SuaOficina Versão 1.0 20/03/2019
+----------------------------------------------
+Software para gerenciamento de oficina.
+
+Extrair a pasta do arquivo SoftwareSuaOficina.tar.gz e importar para a plataforma IDE de sua escolha.
+
+Usuário administrador
+Login:admin
+Senha:admin
+
+Após fazer o login, na tela principal, existem botões para interação de cada objeto do sistema.
+Ao clicar, a tela mostra os objetos cadastros do tipo selecionado anteriormente através de uma tableview,
+lidos via arquivo. Na tela também é possivel pesquisar por um objeto específico ou voltar para a tela anterior,
+além de, por meio do botão cadastrar, registrar um novo objeto. 
+
+Já no menu principal, há o botão orçamento, que dá acesso a tela de orçamento, com combobox's listando 
+objetos disponíveis de cliente, peças e serviços e botões adicioná-los a um arraylist, do qual é possível 
+gerar um arquivo PDF do orçamento ou finalizá-lo para poder ver os produtos e serviços requisitados através de um listview,
+clicando no botão mostrar.
+ 
+----------------------------------------------
+Dupla:
+LEANDRO FERREIRA MARTINS
+CARLOS HENRIQUE ROSSATO
+	

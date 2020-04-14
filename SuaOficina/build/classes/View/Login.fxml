@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="Controller.LoginController">
+   <children>
+      <ImageView fx:id="imageLogo" fitHeight="56.0" fitWidth="215.0" layoutX="93.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/SuaOficinaLogo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lableLogin" layoutX="220.0" layoutY="88.0" prefHeight="45.0" prefWidth="71.0" text="Login" textFill="#1a91ff">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <HBox fx:id="hboxLogin" alignment="CENTER_LEFT" layoutX="30.0" layoutY="155.0" prefHeight="45.0" prefWidth="340.0" style="-fx-border-color: #1A91FF; -fx-background-color: #ffffff; -fx-border-width: 0px 0px 2px 0px;">
+         <children>
+            <ImageView fx:id="imageUser" fitHeight="16.0" fitWidth="16.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/user.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="tfLogin" prefHeight="43.0" prefWidth="318.0" promptText="Usuário" style="-fx-background-color: #ffffff; -fx-border-color: 0;">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </HBox>
+      <HBox fx:id="hboxSenha" alignment="CENTER_LEFT" layoutX="30.0" layoutY="220.0" prefHeight="45.0" prefWidth="340.0" style="-fx-border-color: #1A91FF; -fx-background-color: #ffffff; -fx-border-width: 0px 0px 2px 0px;">
+         <children>
+            <ImageView fx:id="imageKey" fitHeight="16.0" fitWidth="16.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/key.png" />
+               </image>
+            </ImageView>
+            <PasswordField fx:id="tfSenha" prefHeight="43.0" prefWidth="318.0" promptText="Senha" style="-fx-background-color: #FFFFFF; -fx-border-color: 0;">
+               <font>
+                  <Font size="16.0" />
+               </font></PasswordField>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </HBox>
+      <Button fx:id="btnEntrar" alignment="TOP_CENTER" layoutX="129.0" layoutY="299.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="143.0" stylesheets="@../CSS/estiloLogin.css" text="Entrar" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="lbErros" alignment="CENTER" layoutX="30.0" layoutY="265.0" prefHeight="34.0" prefWidth="340.0" textFill="#fb0000" />
+   </children>
+</AnchorPane>

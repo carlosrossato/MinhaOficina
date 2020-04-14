@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="Controller.OrcamentoController"> 
+   <children>
+      <Pane layoutX="250.0" layoutY="220.0" prefHeight="100.0" prefWidth="900.0" style="-fx-background-color: #1A91FF;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="107.0" layoutY="22.0" text="Visualização de Orçamento" textFill="WHITE">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnVoltar" layoutX="25.0" layoutY="21.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="51.0" style="-fx-background-color: 0; -fx-border-color: 0;">
+               <graphic>
+                  <ImageView fitHeight="51.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/setaVoltar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </Pane>
+      <HBox layoutX="57.0" layoutY="130.0" prefHeight="30.0" prefWidth="370.0" spacing="20.0">
+         <children>
+            <ComboBox fx:id="cbCliente" prefHeight="30.0" prefWidth="250.0" promptText="Clientes" style="-fx-background-color: #FFFFFF; -fx-background-radius: 0; -fx-border-color: #1A91FF;" />
+            <Button fx:id="btCliente" graphicTextGap="5.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #1A91FF; -fx-background-radius: 0; -fx-border-color: 0;" text="Add" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="17.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/add.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="57.0" layoutY="215.0" prefHeight="30.0" prefWidth="370.0" spacing="20.0">
+         <children>
+            <ComboBox fx:id="cbProdutos" prefHeight="30.0" prefWidth="250.0" promptText="Produtos" style="-fx-background-color: #FFFFFF; -fx-background-radius: 0; -fx-border-color: #1A91FF;" />
+            <Button fx:id="btProduto" graphicTextGap="5.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #1A91FF; -fx-background-radius: 0; -fx-border-color: 0;" text="Add" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="17.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/add.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="57.0" layoutY="300.0" prefHeight="30.0" prefWidth="370.0" spacing="20.0">
+         <children>
+            <ComboBox fx:id="cbServiços" prefHeight="30.0" prefWidth="250.0" promptText="Serviços" style="-fx-background-color: #FFFFFF; -fx-background-radius: 0; -fx-border-color: #1A91FF;" />
+            <Button fx:id="btServico" graphicTextGap="5.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #1A91FF; -fx-background-radius: 0; -fx-border-color: 0;" text="Add" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="17.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/add.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <ListView fx:id="lvOrcamentos" layoutX="450.0" layoutY="130.0" prefHeight="200.0" prefWidth="392.0" style="-fx-border-color: #1A91FF; -fx-background-color: #FFFFFF;" />
+      <Button fx:id="btnCancelar" graphicTextGap="5.0" layoutX="242.0" layoutY="477.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #ED2539;" text="Cancelar" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="17.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/carcelar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btGerar" layoutX="154.0" layoutY="357.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="175.0" style="-fx-background-color: #1A91FF;" text="Gerar Orçamento" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnFinalizar" layoutX="462.0" layoutY="477.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #22a75b;" text="Finalizar" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="17.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/salvar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btMostrar" layoutX="571.0" layoutY="357.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="175.0" style="-fx-background-color: #1A91FF;" text="Mostrar" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
